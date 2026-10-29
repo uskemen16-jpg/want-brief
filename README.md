@@ -61,6 +61,6 @@ Each timer creates a time interval for an item. **Allocated time** sums interval
 
 Run `make test` for Rust tests and TypeScript checks. Run `make lint`, `cd web && bun test`, `bun run lint`, and `bun run build` for the remaining local checks. To run database integration tests, set `TEST_DATABASE_URL` to an isolated database whose name starts with `wantbrief_issue92_`, then run `cargo test --tests -- --ignored --test-threads=1`.
 
-See [architecture](docs/architecture.md) for the application layout, [glossary](GLOSSARY.md) for domain terms, and [frontend notes](web/README.md) for web commands. Repository workflow conventions live in `docs/agents/`.
+See [architecture](docs/architecture.md) for the application layout, [glossary]() for domain terms, and [frontend notes](web/README.md) for web commands. Repository workflow conventions live in `docs/agents/`.
 
 The [Want Brief design specification](docs/design/redesign.md) includes a responsive preview. The web interface uses Want Desyst v0.3.0 components and tokens.
